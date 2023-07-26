@@ -97,6 +97,10 @@ label {
     opacity: 1;
 }
 
+.burger {
+    display: none;
+}
+
 /* Header *//* Header *//* Header *//* Header *//* Header *//* Header */
 /* Header *//* Header *//* Header *//* Header *//* Header *//* Header */
 header {
@@ -152,7 +156,7 @@ background-size: 200% auto; /* グラデーションが画面外まで広がる�
 .hero__img {
     background-color: #000; /* ここを変更 - 背景色を適切な値に設定 */
     display: flex;
-    background-image:url(/image/hero.png) ;
+    background-image:url(../Portfolio/image/hero.png) ;
     background-size: cover;
     height: 100svh;
     align-items: center;
@@ -560,6 +564,7 @@ footer {
 
 
 .burger {
+    display: block;
     font-size: 32px;
     margin-right: 20px;  /* 右側に20pxの余白を追加 */
 }
@@ -592,7 +597,7 @@ footer {
 
 .hero__img {
     margin-top: 0px;
-    background-image:url(/image/hero_mb.jpeg) ;
+    background-image:url(../Portfolio/image/hero_mb.jpeg) ;
 
 }
 
